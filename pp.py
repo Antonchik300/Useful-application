@@ -249,21 +249,21 @@ class FullscreenApp:
         
         beer_button = ttk.Button(
             buttons_frame,
-            text="Пиво",
+            text="Легкие персонажи",
             width=button_width
         )
         beer_button.pack(pady=10)
         
         girl_button = ttk.Button(
             buttons_frame,
-            text="Бросила девочка",
+            text="Сложные персонажи",
             width=button_width
         )
         girl_button.pack(pady=10)
 
         dynamics_button = ttk.Button(
             buttons_frame,
-            text="Динамика",
+            text="Активные персонажи",
             width=button_width
         )
         dynamics_button.pack(pady=10)
